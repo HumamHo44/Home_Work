@@ -25,3 +25,11 @@ class Solution {
     return false;
   }
 }
+
+// Second solution to the question
+// class Solution {
+//   bool containsDuplicate(List<int> nums) {
+//     Set<int> seenNumbers = nums.toSet();
+//     return seenNumbers.length < nums.length;
+//   }
+// }
